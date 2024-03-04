@@ -17,6 +17,6 @@ const myNewArray=[1,2,3,4,5,6];
     //Other ways
     for(let i=0;i<myNewArray.length;i++){
         if(myNewArray.hasOwnProperty(i)){
-            console.log(i);
+            console.log(i.this.hasOwnProperty(i));
         }
     }
